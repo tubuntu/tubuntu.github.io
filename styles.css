@@ -1,0 +1,115 @@
+/* Reset default browser styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE9D6;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #FF4D4D, #FF0000);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.download-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #FF6666;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Main content styles */
+.main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: disc;
+    padding-left: 0;
+    text-align: left;
+}
+
+.features li {
+    text-align: center;
+}
+
+/* Screenshots styles */
+.screenshots {
+    text-align: center;
+}
+
+.screenshots h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
